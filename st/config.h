@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "-misc-terminus-medium-r-normal--14-77-75-131-c-60-iso8859-1";
+static char *font = "-xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1";
 //static char *font = "TerminessTTF Nerd Font";
 static int borderpx = 2;
 
