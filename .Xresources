@@ -1,0 +1,76 @@
+!! Font/Text Config
+
+!URxvt.letterSpace: -2.5
+!URxvt.font: xft:monospace:size=9:antialiasing=true
+!URxvt*font: xft:inconsolata:size=9:antialias=true
+!URxvt.font: -misc-terminus-medium-r-normal--14-77-75-131-c-60-iso8859-1
+!URxvt*font: -misc-fixed-medium-r-semicondensed-*-12-90-100-*-c-60-iso8859-1
+!URxvt.font: xft:Hack Nerd Font:size=9:antialiasing=false
+URxvt.font: xft:xos4 Terminus:pixelsize=14:antialiasing=false
+
+URxvt.lineSpace: 0
+URvxt.letterSpace: 0
+
+*.background:     #000000
+URxvt.background: [40]#000000
+*.foreground:     #5555ff
+*.color0:         #555555
+*.color8:         #000000
+*.color1:         #aa0000
+*.color9:         #ff5555
+*.color2:         #00aa00
+*.color10:        #55ff55
+*.color3:         #aa5500
+*.color11:        #ffff55
+*.color4:         #0000aa
+*.color12:        #5555ff
+*.color5:         #aa00aa
+*.color13:        #ff55ff
+*.color6:         #00aaaa
+*.color14:        #55ffff
+*.color7:         #ffffff
+*.color15:        #aaaaaa
+*.colorBD:        #00aaaa 
+
+xmenu.foreground: #5555ff
+xmenu.background: #000000
+xmenu.selbackground: #0000aa
+xmenu.selforeground: #55ff55
+xmenu.border: #55ff55
+
+!! Window Customization
+
+URxvt*buffered: true
+URxvt*cursorBlink: true
+!URxvt*underlineColor: #55ff55 
+URxvt*depth: 32
+URxvt*borderless: 1
+URxvt*scrollBar: false
+Urxvt*secondaryScroll:  true    # Enable Shift-PageUp/Down in screen
+URxvt*saveline: 2048
+URxvt.geometry: 94x28
+URxvt.url-launcher: firefox
+URxvt.underlineURLs: true
+URxvt.urlButton: 1
+URxvt.matcher.button: 1
+!URxvt.alpha: 0.6
+URxvt.urgentOnBell: true
+URxvt.iso14755: false # Disables default keybindings 
+
+!URxvt*loginShell: true
+!URxvt*termName: rxvt-unicode
+!URxvt.perl-ext-common: default,keyboard-select,matcher,fullscreen
+
+!! Common Keybinds for Navigations
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+URxvt.keysym.Control-Up: \033[1;5A
+URxvt.keysym.Control-Down: \033[1;5B
+URxvt.keysym.Control-Right: \033[1;5C
+URxvt.keysym.Control-Left: \033[1;5D
+
+!! Copy Paste & Other Extensions
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.keysym.F11: perl:fullscreen:switch
