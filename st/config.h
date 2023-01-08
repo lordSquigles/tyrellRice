@@ -7,6 +7,12 @@
  */
 static char *font = "-xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1";
 //static char *font = "TerminessTTF Nerd Font";
+///* Spare fonts */
+static char *font2[] = {
+	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true",
+	"Hack Nerd Font Mono:pixelsize=12.5:antialias=true:autohint=true",
+};
+
 static int borderpx = 2;
 
 /*
@@ -28,7 +34,7 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static float cwscale = 1.0;
-static float chscale = 1.0;
+static float chscale = 1.01;
 
 /*
  * word delimiter string
