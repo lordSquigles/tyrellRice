@@ -21,4 +21,4 @@ My EGA, cyberpunk-themed gentoo rice:
 1. Wallpapers and other resources
    - I made them pretty easily with a program I wrote in C that scales, [dithers](https://www.youtube.com/watch?v=lseR6ZguBNY&t=1385s), then colors an image. It uses the [stb_image](https://github.com/nothings/stb/blob/master/stb_image.h) library for file operations. I'll probably make a repo for it when it's more complete.
 2. Neovim config
-   - It's just [nvchad](https://github.com/NvChad/NvChad) with a custom [EGA theme](ega.lua) and the ["transparent"](https://github.com/xiyaowong/nvim-transparent) plugin.
+   - It's just [nvchad](https://github.com/NvChad/NvChad) with a custom [EGA theme](ega.lua).
